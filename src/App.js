@@ -31,6 +31,7 @@ function App() {
         console.log({ name: result.user.displayName, email: result.user.email })
         setuser({ name: result.user.displayName, email: result.user.email });
         console.log(`User info`, user);
+
         // IdP data available using getAdditionalUserInfo(result)
         // ...
       }).catch((error) => {
